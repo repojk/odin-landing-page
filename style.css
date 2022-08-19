@@ -37,6 +37,7 @@ header {
 #hero-section {
     background-color: #1f2937;
     display: flex;
+    padding: 50px 100px;
 }
 
 #hero-main-text {
@@ -57,4 +58,13 @@ header {
     font-weight: bold;
     border: 0;
     padding: 8px 24px;
+    margin-top: 8px;
+}
+
+#hero-content {
+    flex: 1;
+}
+
+#hero-img {
+    flex: 1;
 }
