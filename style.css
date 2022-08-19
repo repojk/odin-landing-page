@@ -51,7 +51,8 @@ header {
     color: #E5E7EB;
 }
 
-#hero-button {
+#hero-button,
+#call-button {
     background-color: #3882F6;
     color: white;
     border-radius: 8px;
@@ -104,4 +105,26 @@ header {
     display: flex;
     margin-left: auto;
     font-weight: bold;
+    font-size: 18px;
+}
+
+#call-section {
+    background-color: #3882F6;
+    color: white;
+    margin: 100px;
+    padding: 50px 100px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#call-header {
+    font-weight: 800;
+    font-size: 24px;
+}
+
+#call-button {
+    border: solid;
+    border-width: medium;
+    border-color: white;
 }
