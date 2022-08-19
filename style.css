@@ -69,14 +69,15 @@ header {
     flex: 1;
 }
 
-#content-info {
+#info-header {
     font-size: 36px;
     font-weight: 800;
     color: #1F2937;
     text-align: center;
+    margin: 50px;
 }
 
-#content-container {
+#info-container {
     display: flex;
     justify-content: space-around;
     padding: 0 200px;
