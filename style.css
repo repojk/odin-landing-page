@@ -4,7 +4,6 @@ body {
 
 header,
 #hero-section,
-section,
 footer {
     padding: 0 100px;
 }
@@ -38,6 +37,7 @@ header {
     background-color: #1f2937;
     display: flex;
     padding: 50px 100px;
+    align-items: center;
 }
 
 #hero-main-text {
@@ -67,4 +67,17 @@ header {
 
 #hero-img {
     flex: 1;
+}
+
+#content-info {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+}
+
+#content-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 200px;
 }
