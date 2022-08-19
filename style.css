@@ -3,6 +3,7 @@ body {
 }
 
 header,
+#hero-section,
 section,
 footer {
     padding: 0 100px;
@@ -24,10 +25,36 @@ header {
 #header-links {
     list-style-type: none;
     display: flex;
+    gap: 16px;
 }
 
 #header-links a {
     text-decoration: none;
     font-size: 18px;
     color: #E5E7EB;
+}
+
+#hero-section {
+    background-color: #1f2937;
+    display: flex;
+}
+
+#hero-main-text {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+#hero-secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+#hero-button {
+    background-color: #3882F6;
+    color: white;
+    border-radius: 8px;
+    font-weight: bold;
+    border: 0;
+    padding: 8px 24px;
 }
