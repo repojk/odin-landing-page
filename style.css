@@ -3,8 +3,7 @@ body {
 }
 
 header,
-#hero-section,
-footer {
+#hero-section {
     padding: 0 100px;
 }
 
@@ -83,6 +82,8 @@ header {
     justify-content: space-around;
     padding: 0 200px;
     margin-bottom: 100px;
+    gap: 20px;
+    text-align: center;
 }
 
 #quote-section {
@@ -125,6 +126,13 @@ header {
 
 #call-button {
     border: solid;
-    border-width: medium;
+    border-width: thin;
     border-color: white;
+}
+
+#footer-text {
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+    padding: 50px;
 }
