@@ -38,6 +38,7 @@ header {
     display: flex;
     padding: 50px 100px;
     align-items: center;
+    gap: 16px;
 }
 
 #hero-main-text {
@@ -66,8 +67,12 @@ header {
     flex: 1;
 }
 
-#hero-img {
+#hero-img-container {
     flex: 1;
+}
+
+#hero-img {
+    max-width: 100%;
 }
 
 #info-header {
