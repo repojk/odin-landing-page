@@ -73,6 +73,7 @@ header {
 
 #hero-img {
     max-width: 100%;
+    border-radius: 8px;
 }
 
 #info-header {
@@ -83,13 +84,24 @@ header {
     margin: 50px;
 }
 
-#info-container {
+#info-content {
     display: flex;
     justify-content: space-around;
     padding: 0 200px;
     margin-bottom: 100px;
     gap: 20px;
     text-align: center;
+}
+
+.info-container {
+    flex: 1;
+}
+
+.info-image {
+    max-width: 100%;
+    min-height: 150px;
+    min-width: 150px;
+    border-radius: 8px;
 }
 
 #quote-section {
